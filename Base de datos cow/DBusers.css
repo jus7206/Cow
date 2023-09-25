@@ -1,0 +1,66 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.tool-bar {
+    text-align: center;
+    background-color: black;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 18px;
+}
+
+.tool-bar a {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+
+.tool-bar a:hover {
+    margin: 4px;
+    font-size: 30px;
+    transition: 1s;
+}
+
+
+
+.options-base h1 {
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+.option-buttons {
+    display: inline-flex;
+    margin-top: 40px;
+    margin-left: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.option-buttons input {
+    margin: 15px;
+    height: 25px;
+    width: 100px;
+}
+
+
+
+.table-users {
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 100px;
+}
+.table-users table, th, td{
+    border: 2px solid;
+    border-collapse: collapse;
+}
+.table-users input {
+    margin-right: 600px;
+}

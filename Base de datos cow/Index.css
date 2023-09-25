@@ -1,0 +1,83 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.tool-bar {
+    text-align: center;
+    background-color: black;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 18px;
+}
+
+.tool-bar a {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+
+.tool-bar a:hover {
+    margin: 4px;
+    font-size: 30px;
+    transition: 1s;
+}
+
+
+
+.text-img {
+    display: inline-flex;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 60px;
+    align-items: center;
+}
+
+
+.imgd img {
+    width: 200px;
+    height: 150px;
+    margin-right: 30px;
+}
+.cowimg img {
+    width: 250px;
+    height: 200px;
+    margin-top: -5px;
+}
+
+.info-text {
+    margin-left: 650px;
+    margin-top: -220px;
+}
+
+.title-one h1{
+    font-size: 60px;
+    margin: 15px;
+}
+
+.text-welcome {
+    font-size: 15px;
+    margin: 15px;
+}
+
+
+.title-two h1{
+    font-size: 60px;
+    margin: 15px;
+}
+
+.text-private {
+    font-size: 15px;
+    margin: 15px;
+}
+.footer-page {
+    margin-top: 100px;
+    height: 200px;
+    background-color: rgb(45, 45, 45);
+    color: orange;
+}
